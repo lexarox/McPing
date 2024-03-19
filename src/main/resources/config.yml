@@ -1,0 +1,13 @@
+# Here you can customise almost anything because there is not much
+# If there is a message that is not customisable its probably because its just unnecessary
+# Plugin might stop working if sound is wrong - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+# Would recommend NOTE_PLING works in older versions like 1.8 too
+# Color of the ping - https://htmlcolorcodes.com/minecraft-color-codes/
+color: "&9"
+ping-enable-message: "&8[&7Info&8] &f>> Ping notifications are now enabled"
+ping-disable-message: "&8[&7Info&8] &f>> Ping notifications are now disabled"
+plugin-reload-message: "&8[&7Info&8] &f>> Reloaded Plugin"
+only-for-players-message: "&8[&4X &cError&8] &f>> Only for players"
+ping-sound: BLOCK_NOTE_BLOCK_PLING
+volume: 0.5
+pitch: 1.5

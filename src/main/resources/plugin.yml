@@ -1,0 +1,22 @@
+name: McPing
+version: '${project.version}'
+main: de.lexarox.mcping.McPing
+author: lexarox
+description: Ping people by writing their name!
+
+commands:
+  toggleping:
+    permission: ping.toggle
+  pingreload:
+    permission: ping.reload
+
+
+permissions:
+  ping.use:
+    default: true
+  ping.everyone:
+    default: op
+  ping.toggle:
+    default: true
+  ping.reload:
+    default: op
